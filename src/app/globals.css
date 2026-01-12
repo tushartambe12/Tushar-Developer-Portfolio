@@ -173,6 +173,8 @@
 
   body {
     @apply bg-slate-950 text-foreground antialiased;
+    background-color: #020617;
+    /* ensure dark background */
   }
 }
 

@@ -41,7 +41,8 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 2.6, duration: 0.5 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.2, duration: 0.5 }}
         >
           <BentoGrid>
             {/* Row 1: Profile (2x2) + Spotify (1x1) + Stats (1x1) */}
@@ -84,11 +85,12 @@ export default function Home() {
             <EducationCard />
 
             <ProjectCard />
-            <ContactCard />
 
             <div className="md:col-span-1">
               <TimeLocationCard />
             </div>
+
+            <ContactCard />
 
           </BentoGrid>
         </motion.div>
