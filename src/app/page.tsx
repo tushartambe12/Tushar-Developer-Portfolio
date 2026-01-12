@@ -41,7 +41,6 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          animate={{ opacity: 1 }}
           transition={{ delay: 2.2, duration: 0.5 }}
         >
           <BentoGrid>
