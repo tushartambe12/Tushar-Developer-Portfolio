@@ -1,7 +1,7 @@
 "use client";
 
 import { BentoCard } from "../BentoCard";
-import { GraduationCap, Award, Calendar } from "lucide-react";
+import { GraduationCap, Award } from "lucide-react";
 
 export function EducationCard() {
     return (

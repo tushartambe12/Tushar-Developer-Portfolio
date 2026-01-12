@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { BentoCard } from "../BentoCard";
-import { ExternalLink, ArrowUpRight, Sparkles, Building2 } from "lucide-react";
+import { ArrowUpRight, Sparkles, Building2 } from "lucide-react";
 import { motion } from "framer-motion";
 
 const projects = [
