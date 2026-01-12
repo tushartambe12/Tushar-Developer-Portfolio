@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import { BentoCard } from "@/components/BentoCard";
 
 export default function Error({
     error,
